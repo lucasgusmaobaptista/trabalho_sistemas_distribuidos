@@ -5,6 +5,16 @@
   "registrationAllowed": true,
   "resetPasswordAllowed": true,
   "rememberMe": true,
+  "roles": {
+    "realm": [
+      {
+        "name": "cliente"
+      },
+      {
+        "name": "administrador"
+      }
+    ]
+  },
   "clients": [
     {
       "clientId": "auth-microservice",

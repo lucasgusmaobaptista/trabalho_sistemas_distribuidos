@@ -1,0 +1,24 @@
+{
+  "identities": [
+    {
+      "name": "horti-readonly",
+      "credentials": [
+        {
+          "accessKey": "horti-readonly",
+          "secretKey": "horti-readonly-local-secret"
+        }
+      ],
+      "actions": ["Read"]
+    },
+    {
+      "name": "horti-writer",
+      "credentials": [
+        {
+          "accessKey": "horti-writer",
+          "secretKey": "horti-writer-local-secret"
+        }
+      ],
+      "actions": ["Write"]
+    }
+  ]
+}
